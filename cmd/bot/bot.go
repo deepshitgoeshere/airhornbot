@@ -89,6 +89,7 @@ var AIRHORN *SoundCollection = &SoundCollection{
 	Prefix: "airhorn",
 	Commands: []string{
 		"!airhorn",
+		"!horn"
 	},
 	Sounds: []*Sound{
 		createSound("default", 1000, 250),
